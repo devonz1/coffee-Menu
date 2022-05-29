@@ -3,6 +3,7 @@ body {
     width:300px;
     background-repeat: no-repeat; 
     background-size: cover;
+    /**this is to make sure the picture background covers the entire webpage**/
     }
   
   h1, h2, p {

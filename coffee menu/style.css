@@ -1,8 +1,8 @@
 body {
     background-image:url('https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2019_33/2203981/171026-better-coffee-boost-se-329p.jpg');
-    width:300px
-     
-
+    width:300px;
+    background-repeat: no-repeat; 
+    background-size: cover;
     }
   
   h1, h2, p {
@@ -11,21 +11,26 @@ body {
   
   .menu {
     width: 120%;
+    
     background-color: burlywood;
     margin-left: auto;
     margin-right: auto;
+    padding: 20px;
+    /****this padding on the menu keeps all the words centered
+    onto the menu without it all the words would be on the edges of the brown 
+    form***/
   }
   
   .item p{
     display: inline-block;
   }
 
-    .flavor {
+    .flavor, .dessert {
         text-align: left;
-        width: 50%;
+        width: 75%;
       }
       
       .price {
         text-align: right;
-        width: 50%;
+        width: 25%;
       }

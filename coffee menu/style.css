@@ -4,7 +4,11 @@ body {
     background-repeat: no-repeat; 
     background-size: cover;
     /**this is to make sure the picture background covers the entire webpage**/
-    }
+    font-family: Georgia, serif;
+    padding: 20px;
+    background-position: center;
+  
+  }
   
   h1, h2, p {
     text-align: center;
@@ -12,8 +16,8 @@ body {
   
   .menu {
     width: 120%;
-    
-    background-color: burlywood;
+    max-width: 500px;
+    background-color: rgb(202, 162, 108);
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -24,6 +28,9 @@ body {
   
   .item p{
     display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 19px;
   }
 
     .flavor, .dessert {
@@ -34,4 +41,21 @@ body {
       .price {
         text-align: right;
         width: 25%;
+      }
+
+      .established {
+        font-style: italic;
+      }
+
+      hr {
+        height: 2px;
+        background: beige;
+        border-color:burlywood;
+      }
+      /*** using the hr element this changes the color and border color of the line at the top 
+      the menu
+      **/
+
+      .bottom-line{
+        margin-top: 25px;
       }

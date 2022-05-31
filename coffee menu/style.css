@@ -14,10 +14,16 @@ body {
     text-align: center;
   }
   
+  h1{
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+
   .menu {
     width: 120%;
     max-width: 500px;
-    background-color: rgb(202, 162, 108);
+    background-color: rgba(255, 250, 250, 0.863);
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
@@ -59,3 +65,21 @@ body {
       .bottom-line{
         margin-top: 25px;
       }
+      /* FOOTER */
+
+       footer {
+        font-size: 14px;
+     }
+
+     a{
+      color:black;
+     }
+
+     a:visited{
+       color:black
+     }
+
+     a:hover{
+       color:white
+     }
+
